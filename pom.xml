@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <name>process-logger</name>
+    <groupId>com.github.harunhasdal.livecycle</groupId>
+    <artifactId>process-logger</artifactId>
+    <version>1.0</version>
+    <description>Logger component for LiveCycle processes.</description>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <livecycle-sdk-version>9.0.0.2</livecycle-sdk-version>
+    </properties>
+
+    <developers>
+        <developer>
+            <id>harunhasdal</id>
+            <name>Harun Hasdal</name>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:harunhasdal/process-logger.git</connection>
+        <developerConnection>scm:git:git@github.com:harunhasdal/process-logger.git</developerConnection>
+        <url>https://github.com/harunhasdal/process-logger.git</url>
+    </scm>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/harunhasdal/process-logger/issues</url>
+    </issueManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.adobe.livecycle</groupId>
+            <artifactId>adobe-livecycle-client</artifactId>
+            <version>${livecycle-sdk-version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,21 @@
+<component xmlns="http://adobe.com/idp/dsc/component/document">
+    <component-id>process-logger</component-id>
+    <version>1.0</version>
+    <bootstrap-class>com.github.harunhasdal.livecycle.BootstrapImpl</bootstrap-class>
+    <lifecycle-class>com.github.harunhasdal.livecycle.LifeCycleImpl</lifecycle-class>
+    <services>
+        <service name="ProcessLogger">
+            <implementation-class>com.github.harunhasdal.livecycle.ProcessLoggerImpl</implementation-class>
+            <small-icon>logicon.jpeg</small-icon>
+            <large-icon>logicon.jpeg</large-icon>
+            <auto-deploy service-id="ProcessLogger" minor-version="0" major-version="1" category-id="CustomUtilities"/>
+            <operations>
+                <operation name="log">
+                    <input-parameter type="java.lang.String" title="Logger name" name="loggerName"/>
+                    <input-parameter type="java.lang.String" title="Message" name="message"/>
+                    <input-parameter type="java.lang.String" title="Log level" name="level"/>
+                </operation>
+            </operations>
+        </service>
+    </services>
+</component>
