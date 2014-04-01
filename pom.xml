@@ -3,7 +3,7 @@
     <name>process-logger</name>
     <groupId>com.github.harunhasdal.livecycle</groupId>
     <artifactId>process-logger</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <description>Logger component for Adobe LiveCycle processes.</description>
 
     <modelVersion>4.0.0</modelVersion>
@@ -37,7 +37,8 @@
         <url>https://github.com/harunhasdal/process-logger.git</url>
         <connection>scm:git:git@github.com:harunhasdal/process-logger.git</connection>
         <developerConnection>scm:git:git@github.com:harunhasdal/process-logger.git</developerConnection>
-    </scm>
+      <tag>process-logger-1.0</tag>
+  </scm>
 
     <issueManagement>
         <system>Github</system>
