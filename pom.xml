@@ -3,7 +3,7 @@
     <name>process-logger</name>
     <groupId>com.github.harunhasdal.livecycle</groupId>
     <artifactId>process-logger</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <description>Logger component for Adobe LiveCycle processes.</description>
 
     <modelVersion>4.0.0</modelVersion>
@@ -109,7 +109,7 @@
         <repository>
             <id>nexus-releases</id>
             <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
 
