@@ -1,6 +1,6 @@
 # process-logger
 
-LiveCycle component for logging into server log from processes with using adobe logger implementation.
+Opensource LiveCycle component for logging into server log from processes with using adobe logger implementation.
 
 ## Usage
 
